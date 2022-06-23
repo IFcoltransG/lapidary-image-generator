@@ -565,7 +565,7 @@ fn prune_edges(
     grid: &mut Vec<Neighbours>,
 ) -> Result<()> {
     let main_bar = ProgressBar::new(4)
-       .with_style(style.clone())
+       .with_style(style)
        .with_prefix("Pruning edges");
     main_bar.tick();
     for (row, flag) in [
