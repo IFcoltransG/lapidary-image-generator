@@ -5,7 +5,7 @@ use self::gen::new_image;
 
 /// Generate pictures using random flood fill.
 #[derive(Parser, Debug)]
-#[clap(name = "fictures")]
+#[clap(name = env!("CARGO_PKG_NAME"), version = env!("CARGO_PKG_VERSION"))]
 struct Cli {
     /// Path to save output image to
     #[clap(name = "output-file", parse(from_os_str))]
