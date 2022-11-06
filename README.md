@@ -14,8 +14,8 @@ This is a WIP command-line tool for generating images. `cargo run --release -- -
 `cargo run --release -- images/boxes.png -C rand -T spiral -D 15 --seed 0`
 ![Boxes](./images/boxes.png)
 
-`cargo run --release -- images/warp.png -C rand -T prim -X 0.5 --seed 10`
-![Warp](./images/warp.png)
+`cargo run --release -- images/apotheosis.png -C rand -T prim -X 0.5 --seed 10`
+![Apotheosis](./images/apotheosis.png)
 
 `cargo run --release -- images/default-settings.png`
 ![Default](./images/default-settings.png)
