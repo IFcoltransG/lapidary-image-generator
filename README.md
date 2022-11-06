@@ -1,7 +1,9 @@
 # Lapidary
 This is a WIP command-line tool for generating images. `cargo run --release -- --help` should get you started for now.
 
-## Some WIP output
+## Work-In-Progress Output Showcase
+Each image has the command required to generate it.
+
 `cargo run --release -- images/mirror.png -C rand -H 500 -W 500 -D 12 --seed 3`
 ![Mirror](./images/mirror.png)
 
