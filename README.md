@@ -1,3 +1,5 @@
+# [MIGRATED TO CODEBERG 2026-10-31](https://codeberg.org/IFcoltransG/lapidary-image-generator)
+
 # Lapidary
 This is a WIP command-line tool for generating images. `cargo run --release -- --help` should get you started for now.
 
